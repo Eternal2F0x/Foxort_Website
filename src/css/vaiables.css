@@ -1,0 +1,39 @@
+:root {
+
+    --background: #0c0911;
+
+    --surface: #15111c;
+
+    --surface-light: #1c1725;
+
+    --surface-hover: #241d2f;
+
+    --border: #2c2436;
+
+
+    --primary: #9857ff;
+
+    --primary-hover: #aa73ff;
+
+
+    --text: #f5f1fa;
+
+    --text-secondary: #aaa1b7;
+
+    --text-muted: #746b80;
+
+
+    --green: #55d69b;
+
+    --blue: #5ca8ff;
+
+    --orange: #ffb35c;
+
+    --red: #ff647c;
+
+
+    --sidebar-width: 250px;
+
+    --radius: 14px;
+
+}
