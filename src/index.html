@@ -12,94 +12,564 @@
 
 <body>
 
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+
     <aside class="sidebar">
 
-        <h1>🦊 FoxDesk</h1>
+        <div class="brand">
 
-        <nav>
-            <a href="#">Dashboard</a>
-            <a href="#">Tâches</a>
-            <a href="#">Projets</a>
-            <a href="#">Planning</a>
-            <a href="#">Notes</a>
-            <a href="#">Administration</a>
-            <a href="#">Paramètres</a>
+            <div class="brand-logo">
+                🦊
+            </div>
+
+            <div class="brand-name">
+                <strong>FOX</strong>
+                <span>DESK</span>
+            </div>
+
+        </div>
+
+
+        <div class="sidebar-separator"></div>
+
+
+        <nav class="navigation">
+
+            <p class="navigation-title">
+                ESPACE
+            </p>
+
+            <a href="#" class="nav-item active">
+
+                <span class="nav-icon">◈</span>
+
+                <span>
+                    Dashboard
+                </span>
+
+            </a>
+
+
+            <a href="#" class="nav-item">
+
+                <span class="nav-icon">✓</span>
+
+                <span>
+                    Tâches
+                </span>
+
+            </a>
+
+
+            <a href="#" class="nav-item">
+
+                <span class="nav-icon">◆</span>
+
+                <span>
+                    Projets
+                </span>
+
+            </a>
+
+
+            <a href="#" class="nav-item">
+
+                <span class="nav-icon">◇</span>
+
+                <span>
+                    Calendrier
+                </span>
+
+            </a>
+
+
+            <a href="#" class="nav-item">
+
+                <span class="nav-icon">▤</span>
+
+                <span>
+                    Notes
+                </span>
+
+            </a>
+
+
+            <p class="navigation-title system-title">
+                SYSTÈME
+            </p>
+
+
+            <a href="#" class="nav-item">
+
+                <span class="nav-icon">⌘</span>
+
+                <span>
+                    Administration
+                </span>
+
+            </a>
+
+
+            <a href="#" class="nav-item">
+
+                <span class="nav-icon">⚙</span>
+
+                <span>
+                    Paramètres
+                </span>
+
+            </a>
+
         </nav>
+
+
+        <div class="sidebar-bottom">
+
+            <div class="system-status">
+
+                <span class="status-dot"></span>
+
+                <div>
+                    <strong>Système opérationnel</strong>
+                    <span>Tout fonctionne normalement</span>
+                </div>
+
+            </div>
+
+        </div>
 
     </aside>
 
 
-    <main class="content">
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main class="main">
+
+
+        <!-- HEADER -->
 
         <header class="header">
 
-            <div>
-                <h2>Dashboard</h2>
-                <p>Bienvenue sur FoxDesk.</p>
+            <div class="header-title">
+
+                <span class="header-breadcrumb">
+                    ESPACE PERSONNEL
+                </span>
+
+                <h1>
+                    Dashboard
+                </h1>
+
+                <p>
+                    Voici un aperçu de ton espace FoxDesk.
+                </p>
+
             </div>
 
-            <button>
-                🔔
-            </button>
+
+            <!-- PROFILE -->
+
+            <div class="profile">
+
+                <div class="profile-information">
+
+                    <strong>
+                        Antonin
+                    </strong>
+
+                    <span>
+                        Administrateur
+                    </span>
+
+                </div>
+
+
+                <div class="profile-avatar">
+                    A
+                </div>
+
+
+                <button class="profile-button">
+                    ⋮
+                </button>
+
+            </div>
 
         </header>
 
 
-        <section class="cards">
+        <!-- CONTENT -->
 
-            <article class="card">
-                <span>📋</span>
-                <h3>Tâches</h3>
-                <strong>12</strong>
-                <p>Tâches actuellement enregistrées.</p>
-            </article>
-
-            <article class="card">
-                <span>✅</span>
-                <h3>Terminées</h3>
-                <strong>8</strong>
-                <p>Tâches terminées.</p>
-            </article>
-
-            <article class="card">
-                <span>📁</span>
-                <h3>Projets</h3>
-                <strong>4</strong>
-                <p>Projets actuellement actifs.</p>
-            </article>
-
-        </section>
+        <div class="content">
 
 
-        <section class="panel">
+            <!-- =========================
+                 STATISTICS
+            ========================== -->
 
-            <h2>Tâches récentes</h2>
+            <section class="statistics">
 
-            <div class="task">
-                <span>☐</span>
-                <div>
-                    <strong>Créer l'interface</strong>
-                    <p>FoxDesk</p>
+
+                <!-- TASKS -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+
+                        <div class="stat-icon">
+                            ✓
+                        </div>
+
+                        <span class="stat-arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="stat-value">
+                        12
+                    </div>
+
+                    <div class="stat-label">
+                        Tâches
+                    </div>
+
+                    <div class="stat-description">
+                        Éléments enregistrés
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECTS -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+
+                        <div class="stat-icon">
+                            ◆
+                        </div>
+
+                        <span class="stat-arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="stat-value">
+                        4
+                    </div>
+
+                    <div class="stat-label">
+                        Projets
+                    </div>
+
+                    <div class="stat-description">
+                        Projets actuellement actifs
+                    </div>
+
+                </article>
+
+
+                <!-- EVENTS -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+
+                        <div class="stat-icon">
+                            ◇
+                        </div>
+
+                        <span class="stat-arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="stat-value">
+                        8
+                    </div>
+
+                    <div class="stat-label">
+                        Événements
+                    </div>
+
+                    <div class="stat-description">
+                        Événements à venir
+                    </div>
+
+                </article>
+
+
+                <!-- NOTES -->
+
+                <article class="stat-card">
+
+                    <div class="stat-top">
+
+                        <div class="stat-icon">
+                            ▤
+                        </div>
+
+                        <span class="stat-arrow">
+                            ↗
+                        </span>
+
+                    </div>
+
+                    <div class="stat-value">
+                        23
+                    </div>
+
+                    <div class="stat-label">
+                        Notes
+                    </div>
+
+                    <div class="stat-description">
+                        Notes enregistrées
+                    </div>
+
+                </article>
+
+
+            </section>
+
+
+            <!-- =========================
+                 RECENT ACTIVITY
+            ========================== -->
+
+            <section class="recent-section">
+
+
+                <div class="section-header">
+
+                    <div>
+
+                        <span class="section-kicker">
+                            JOURNAL
+                        </span>
+
+                        <h2>
+                            Activité récente
+                        </h2>
+
+                        <p>
+                            Les dernières modifications effectuées
+                            sur ton espace.
+                        </p>
+
+                    </div>
+
+
+                    <button class="view-all">
+                        Voir tout
+                        <span>→</span>
+                    </button>
+
                 </div>
-            </div>
 
-            <div class="task">
-                <span>☐</span>
-                <div>
-                    <strong>Apprendre JavaScript</strong>
-                    <p>Formation</p>
+
+                <div class="activity-container">
+
+
+                    <!-- ACTIVITY -->
+
+                    <article class="activity-item">
+
+                        <div class="activity-icon task-icon">
+                            ✓
+                        </div>
+
+
+                        <div class="activity-content">
+
+                            <div class="activity-title">
+
+                                <strong>
+                                    Tâche modifiée
+                                </strong>
+
+                                <span class="activity-time">
+                                    Il y a 2 min
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Terminer l'interface de FoxDesk
+                            </p>
+
+                        </div>
+
+
+                        <div class="activity-type">
+                            TÂCHE
+                        </div>
+
+                    </article>
+
+
+                    <!-- ACTIVITY -->
+
+                    <article class="activity-item">
+
+                        <div class="activity-icon project-icon">
+                            ◆
+                        </div>
+
+
+                        <div class="activity-content">
+
+                            <div class="activity-title">
+
+                                <strong>
+                                    Projet modifié
+                                </strong>
+
+                                <span class="activity-time">
+                                    Il y a 18 min
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Portfolio personnel
+                            </p>
+
+                        </div>
+
+
+                        <div class="activity-type">
+                            PROJET
+                        </div>
+
+                    </article>
+
+
+                    <!-- ACTIVITY -->
+
+                    <article class="activity-item">
+
+                        <div class="activity-icon note-icon">
+                            ▤
+                        </div>
+
+
+                        <div class="activity-content">
+
+                            <div class="activity-title">
+
+                                <strong>
+                                    Note créée
+                                </strong>
+
+                                <span class="activity-time">
+                                    Il y a 1 h
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Idées pour mon prochain projet
+                            </p>
+
+                        </div>
+
+
+                        <div class="activity-type">
+                            NOTE
+                        </div>
+
+                    </article>
+
+
+                    <!-- ACTIVITY -->
+
+                    <article class="activity-item">
+
+                        <div class="activity-icon calendar-icon">
+                            ◇
+                        </div>
+
+
+                        <div class="activity-content">
+
+                            <div class="activity-title">
+
+                                <strong>
+                                    Événement ajouté
+                                </strong>
+
+                                <span class="activity-time">
+                                    Il y a 3 h
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Rendez-vous avec l'équipe
+                            </p>
+
+                        </div>
+
+
+                        <div class="activity-type">
+                            CALENDRIER
+                        </div>
+
+                    </article>
+
+
+                    <!-- ACTIVITY -->
+
+                    <article class="activity-item">
+
+                        <div class="activity-icon task-icon">
+                            ✓
+                        </div>
+
+
+                        <div class="activity-content">
+
+                            <div class="activity-title">
+
+                                <strong>
+                                    Tâche terminée
+                                </strong>
+
+                                <span class="activity-time">
+                                    Hier
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Création de l'arborescence
+                            </p>
+
+                        </div>
+
+
+                        <div class="activity-type">
+                            TÂCHE
+                        </div>
+
+                    </article>
+
+
                 </div>
-            </div>
 
-            <div class="task">
-                <span>☑</span>
-                <div>
-                    <strong>Créer l'arborescence</strong>
-                    <p>FoxDesk</p>
-                </div>
-            </div>
+            </section>
 
-        </section>
+
+        </div>
 
     </main>
 
