@@ -136,6 +136,7 @@ body {
     padding:
         0 8px;
 
+
 }
 
 
@@ -353,7 +354,7 @@ body {
 }
 
 
-.system-status {
+.game-bottom {
 
     padding:
         12px;
@@ -362,7 +363,7 @@ body {
 
     align-items: center;
 
-    gap: 10px;
+    gap: 5px;
 
     border:
         1px solid var(--border);
@@ -373,25 +374,6 @@ body {
         rgba(255, 255, 255, 0.015);
 
 }
-
-
-.status-dot {
-
-    width: 7px;
-    height: 7px;
-
-    flex-shrink: 0;
-
-    border-radius: 50%;
-
-    background: var(--green);
-
-    box-shadow:
-        0 0 10px
-        rgba(89, 214, 154, 0.7);
-
-}
-
 
 .system-status div {
 
